@@ -10,8 +10,8 @@
 
 /* COLORI */
 :root {
-    --darkBlu: rgb(23, 49, 97);
-    --yellow: rgb(219, 207, 45);
+    --darkBlu: #173161;
+    --yellow: #dbcf2d;
     --grey: rgb(119, 139, 147);
     --white: rgb(255, 255, 255);
     --black: rgb(0, 0, 0);
@@ -314,19 +314,20 @@ input.form-control::placeholder {
 }
 
 .custom-gap {
-    --bs-gutter-x: 3 rem;  
-    --bs-gutter-y: 3rem;
+    --bs-gutter-x: 2rem;  
+    --bs-gutter-y: 1rem;
 }
 
 /* Ricerca per categoria */
 .index-category {
     margin-top: 70px;
-    min-height: 60vh;
+    min-height: 80vh;
 }
 
 /* INDEX ANNUNCI */
-.index-announces {
+.index-announce {
     margin-top: 70px;
+    min-height: 80vh;
 }
 
 .page-link.active,
@@ -879,7 +880,8 @@ select.form-control option {
 /* VERIFICA annunci */
 
 .mt-navbar-revisors {
-    margin-top: 120px; 
+    margin-top: 120px;
+    min-height: 90vh; 
 }
 
 .index-revisor {

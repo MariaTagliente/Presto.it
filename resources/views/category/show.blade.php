@@ -1,6 +1,6 @@
 <x-layout>
     <main class="container">
-        <section class="row index-category g-4">
+        <section class="row index-category g-4 mb-5">
             <h3 class="tx-darkBlu text-center">
                 {{ $category->name }}
             </h3>

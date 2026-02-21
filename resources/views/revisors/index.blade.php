@@ -49,7 +49,7 @@
             </div>
             @endif
 
-            @if($last_announcement)
+            {{-- @if($last_announcement)
             <div class="text-center mb-5">
                 <form action="{{route('back_announce', $last_announcement)}}" method="POST">
                     @csrf
@@ -59,7 +59,7 @@
                     </button>  
                 </form>
             </div>
-            @endif
+            @endif --}}
 
             @if(isset($rejected_announces) && $rejected_announces->isNotEmpty())
             <div class="section-header-rejected mb-4">
